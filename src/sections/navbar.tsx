@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="text-2xl font-bold">Zai<span className="text-pink-700">Cam</span></div>
                     
-                    <div className="hidden md:flex space-x-4">
+                    <div className="hidden md:flex">
                         <NavLink to="#" label="Home" />
                         <NavLink to="#" label="About" />
                         <NavLink to="#" label="Services"/>

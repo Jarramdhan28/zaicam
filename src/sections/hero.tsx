@@ -19,7 +19,6 @@ const Hero = () => {
                     data-aos-easing="ease-in-out" 
                     data-aos-mirror="true"
                     data-aos-once="false"
-                    data-aos-anchor-placement="top-center"
                     className="flex flex-col-reverse md:flex-row justify-center items-center">
                     {/* Text Section */}
                     <div className="w-full text-center md:text-left md:w-1/2 space-y-4">

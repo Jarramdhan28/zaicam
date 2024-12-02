@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Testi1 from "/images/testimonials/1.png";
 import { IoMdArrowDropleftCircle, IoMdArrowDroprightCircle } from "react-icons/io";
-import Aos from "aos";
+
 
 const DataTestimonials = [
     {
@@ -14,7 +14,7 @@ const DataTestimonials = [
         id: 2,
         image: Testi1,
         name: "Abdul Takhir",
-        message: "Zaicam offers top-notch cameras at unbeatable prices. Highly recommended for any photography enthusiast!",
+        message: "Zaicam offers top-notch cameras at unbeatable prices. Highly recommended for any photography!",
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const DataTestimonials = [
         id: 4,
         image: Testi1,
         name: "Mail Bank",
-        message: "Fast shipping, great communication, and an amazing product. Zaicam is the best place for camera shopping!",
+        message: "Fast shipping, and an amazing product. Zaicam is the best place for camera shopping!",
     },
     {
         id: 5,
@@ -56,11 +56,6 @@ const Testimonials = () => {
             prevIndex === 0 ? groupedSlides.length - 1 : prevIndex - 1
         )
     }
-
-    useEffect(() => {
-        Aos.init()
-    }, [])
-
     return (
         <div id="testimonials" className="mx-auto max-w-6xl space-y-6 px-6 sm:px-6 lg:px-8 my-12">
             <div 
@@ -79,7 +74,8 @@ const Testimonials = () => {
                 </p>
             </div>
 
-            <div data-aos="zoom-out-up"
+            <div 
+                data-aos="zoom-out-up"
                 data-aos-offset="200"
                 data-aos-delay="50"
                 data-aos-duration="1000"
