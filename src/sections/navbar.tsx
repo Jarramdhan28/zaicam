@@ -17,10 +17,11 @@ const Navbar = () => {
                     <div className="text-2xl font-bold">Zai<span className="text-pink-700">Cam</span></div>
                     
                     <div className="hidden md:flex">
-                        <NavLink to="#" label="Home" />
-                        <NavLink to="#" label="About" />
-                        <NavLink to="#" label="Services"/>
-                        <NavLink to="#" label="Contact"/>
+                        <NavLink to="#hero" label="Home" />
+                        <NavLink to="#about" label="About" />
+                        <NavLink to="#categories" label="Categories"/>
+                        <NavLink to="#bestProduct" label="Best Product"/>
+                        <NavLink to="#testimonials" label="Testimonials"/>
                     </div>
 
                     <button className="md:hidden" onClick={toggleMenu}>
@@ -29,17 +30,18 @@ const Navbar = () => {
                 </div>
             </div>
 
-      {/* Mobile Menu */}
-        {isOpen && (
-        <div className="md:hidden">
-            <NavLink to="#" label="Home" />
-            <NavLink to="#" label="About" />
-            <NavLink to="#" label="Services" />
-            <NavLink to="#" label="Contact" />
-        </div>
+        {/* Mobile Menu */}
+            {isOpen && (
+            <div className="md:hidden">
+                    <NavLink to="#hero" label="Home" />
+                    <NavLink to="#about" label="About" />
+                    <NavLink to="#categories" label="Categories" />
+                    <NavLink to="#bestProduct" label="Best Product" />
+                    <NavLink to="#testimonials" label="Testimonials" />
+            </div>
         )}
     </nav>
-     );
+    )
 }
  
 export default Navbar;

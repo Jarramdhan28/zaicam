@@ -7,7 +7,7 @@ const About = () => {
         Aos.init()
     }, [])
     return (
-        <div className="bg-pink-950">
+        <div id="about" className="bg-pink-950">
             <div 
                 data-aos="fade-up"
                 data-aos-offset="200"

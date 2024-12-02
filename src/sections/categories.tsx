@@ -30,7 +30,7 @@ const Categories = () => {
     }, [])
 
     return ( 
-    <div className="mx-auto max-w-7xl space-y-6 px-6 lg:px-20 my-12 md:my-32">
+    <div id="categories" className="mx-auto max-w-7xl space-y-6 px-6 lg:px-20 my-12 md:my-32">
             <div 
                 data-aos="zoom-out-up"
                 data-aos-offset="200"

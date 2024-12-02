@@ -50,7 +50,7 @@ const Products = () => {
     }, [])
 
     return ( 
-        <div className="mx-auto max-w-7xl space-y-6 px-6 lg:px-20 my-2 md:my-32">
+        <div id="bestProduct" className="mx-auto max-w-7xl space-y-6 px-6 lg:px-20 my-2 md:my-32">
             <div 
                 data-aos="zoom-out-up"
                 data-aos-offset="200"
