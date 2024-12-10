@@ -20,7 +20,7 @@ const Navbar = () => {
                         <NavLink to="#hero" label="Home" />
                         <NavLink to="#about" label="About" />
                         <NavLink to="#categories" label="Categories"/>
-                        <NavLink to="#bestProduct" label="Best Product"/>
+                        <NavLink to="#bestProduct" label="Product"/>
                         <NavLink to="#testimonials" label="Testimonials"/>
                     </div>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <NavLink to="#hero" label="Home" />
                     <NavLink to="#about" label="About" />
                     <NavLink to="#categories" label="Categories" />
-                    <NavLink to="#bestProduct" label="Best Product" />
+                    <NavLink to="#bestProduct" label="Product" />
                     <NavLink to="#testimonials" label="Testimonials" />
             </div>
         )}

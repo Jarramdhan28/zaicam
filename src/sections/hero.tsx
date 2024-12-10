@@ -10,7 +10,7 @@ const Hero = () => {
 
     return (
         <div id="hero" className="bg-pink-100">
-            <div className="mx-auto max-w-7xl space-y-6 py-6 px-6 lg:px-8 pt-16">
+            <div className="mx-auto max-w-7xl space-y-6 py-6 px-6 lg:px-8  pt-18 md:pt-24">
                 <div 
                     data-aos="zoom-out-up"
                     data-aos-offset="200"
